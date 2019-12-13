@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.row > label {
+    padding: 5%;
+    width: 25%;
+    /* border: 1px solid purple; */
+}
+
+#userInput {
+    width: 25%;
+    height: 20px;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+#userInput::placeholder {
+    text-align: center;
+    color: #555;
+}
+
+button {
+    padding: 0.5%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 1%;
+}
